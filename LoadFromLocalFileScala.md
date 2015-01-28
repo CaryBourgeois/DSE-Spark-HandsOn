@@ -22,7 +22,7 @@ The ability to install sbt on your local machine is also required.
 
 Navigate to a directory that you would like to use for this project. From the command line in that directory issue the following command
 
-                git https://github.com/CaryBourgeois/DSE-Spark-HandsOn.git
+                git clone https://github.com/CaryBourgeois/DSE-Spark-HandsOn.git
 
 Review the directory to ensure that you have downloaded all of the files from the repository.
 
@@ -39,7 +39,7 @@ If this is not the case then please visit the [sbt site](http://www.scala-sbt.or
 
 ##3. Find and edit the Scala code example to ensure that it is configured for your environment
 
-This project was created with the Community Edition of IntelliJ IDEA. The simplest way to get review and modify the scala code is to open the project with this IDE. Alternatively, you can use any text editor to view/edit the file as the build and execute process will work fomr the command line via sbt.
+This project was created with the Community Edition of IntelliJ IDEA. The simplest way to get, review, and modify the scala code is to open the project with this IDE. Alternatively, you can use any text editor to view/edit the file as the build and execute process will work fomr the command line via sbt.
 
 From the directory where you cloned the github project, navigate to the `/src/main/scala` directory. Locate and open the file `LoadFromLocalFile.scala` file.
 
@@ -78,7 +78,7 @@ Once you have reviewed the code you will need to make changes to reflect your sp
 
 You will now use sbt to build and run the file you have modified.
 
-  * Run sbt to build the project using the command below form the command line. This command will compile for file we created and build the "fat" jar that will be copied to the Spark master for execution. This could be a lengthy process as sbt probably have to download a number of files. At the end of the process you should have a response of `[success]`
+  * Run sbt to build the project using the command below form the command line. This command will compile for the file we created and build the "fat" jar that will be copied to the Spark master for execution. This could be a lengthy process as sbt probably have to download a number of files. At the end of the process you should have a response of `[success]`
 
         sbt assembley
   * Run the project using the sbt run command. This will copy the "fat" jar to the Spark system and execute the program. The output will contain a bunch of [INFO] entries and conclude with [success] is all has gone well.
