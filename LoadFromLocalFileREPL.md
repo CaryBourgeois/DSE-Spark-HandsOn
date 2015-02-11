@@ -44,7 +44,7 @@ The fields are:
 
 First you need to decide how you want to model/specify the Cassandra table. below is one possible way. Keep in mind that the use case for SparkSQL is the ability to overcome some of the limitations of the data model imposed by Cassandra. So feel free to adjust this table structure as it should have no impact on out se case.
 
-CREATE TABLE IF NOT EXISTS spark_cass.station_max (st_id int, year int, month int, day int, meas text, value int, YYYYMMDD int, PRIMARY KEY(st_id, YYYYMMDD))
+                CREATE TABLE IF NOT EXISTS spark_cass.station_tmax (st_id int, year int, month int, day int, meas text, value int, YYYYMMDD int, PRIMARY KEY(st_id, YYYYMMDD))
 
 With the structure decided we need to create this table so that we have a place to put the data. Us the following step from the Spark REPL.
 
