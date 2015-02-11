@@ -21,7 +21,7 @@ In order to work with this exercise and the remaining exercises in this example 
 
 Navigate to a directory that you would like to use for this project. From the command line in that directory issue the following command
 
-                git https://github.com/CaryBourgeois/DSE-Spark-HandsOn.git
+                git clone https://github.com/CaryBourgeois/DSE-Spark-HandsOn.git
 
 From the root direct of the downloaded project, move to the data sub directory and ensure that you have the sfpnax_2003_2013-load.csv file. The contents of this file is the daily maximum temperature for the ????
 
