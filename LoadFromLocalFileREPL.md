@@ -23,7 +23,7 @@ Navigate to a directory that you would like to use for this project. From the co
 
                 git clone https://github.com/CaryBourgeois/DSE-Spark-HandsOn.git
 
-From the root direct of the downloaded project, move to the data sub directory and ensure that you have the sfpnax_2003_2013-load.csv file. The contents of this file is the daily maximum temperature for the ????
+From the root direct of the downloaded project, move to the data sub directory and ensure that you have the sftmax_2003_2013-load.csv file. The contents of this file is the daily maximum temperature for the ????
 
 Below is an example of the contents of the file.
 
