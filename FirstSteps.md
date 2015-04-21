@@ -80,11 +80,11 @@ The first thing we will need to do to make this work is import the library that 
 
 At this point you should have created a keyspace and a table that we can now use.
 
-IMPORTANT NOTE: In most of your use case you will not need to go through step 2 as you keyspaces and tables will already exist.
+IMPORTANT NOTE: In most of your use cases you will not need to go through step 2 as your keyspaces and tables will already exist.
 
 ##3. Create a Spark RDD with data and validate that information
 
-First you need to create some data to insert into out simple table. Recall the table is an integer primary key and a text value.
+First you need to create some data to insert into our simple table. Recall the table is an integer primary key and a text value.
 
   * From the Spark REPL, issue the below command to create and RDD named data. Note that this command uses the Spark Context (sc) not the Cassandra Spark Context (csc).
 
